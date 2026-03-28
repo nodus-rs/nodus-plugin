@@ -1,0 +1,17 @@
+{
+  "name": "nodus-plugin",
+  "version": "0.1.0",
+  "description": "Helper skills, commands, rules, and agents for installing, inspecting, and maintaining Nodus packages.",
+  "author": {
+    "name": "nodus-rs"
+  },
+  "homepage": "https://github.com/nodus-rs/nodus-plugin",
+  "repository": "https://github.com/nodus-rs/nodus-plugin",
+  "license": "MIT",
+  "keywords": [
+    "nodus",
+    "claude-code",
+    "agent-packages",
+    "package-management"
+  ]
+}

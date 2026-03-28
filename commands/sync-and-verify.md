@@ -1,3 +1,7 @@
+---
+description: Sync Nodus-managed workspace files and verify the resulting setup is healthy.
+---
+
 # Sync And Verify A Workspace
 
 Refresh the files Nodus manages for the workspace, then verify that the setup is healthy.

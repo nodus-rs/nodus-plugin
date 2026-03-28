@@ -1,3 +1,7 @@
+---
+description: Inspect a Nodus package or installed dependency before making workspace changes.
+---
+
 # Inspect A Nodus Package
 
 Inspect a local package, an installed dependency, or a remote package before changing workspace state.

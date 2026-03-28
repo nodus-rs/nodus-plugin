@@ -1,0 +1,30 @@
+{
+  "name": "nodus-plugins",
+  "owner": {
+    "name": "nodus-rs"
+  },
+  "metadata": {
+    "description": "Claude Code plugins maintained by the Nodus team.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "nodus-plugin",
+      "source": "./",
+      "description": "Helper skills, commands, rules, and agents for installing, inspecting, and maintaining Nodus packages.",
+      "version": "0.1.0",
+      "author": {
+        "name": "nodus-rs"
+      },
+      "homepage": "https://github.com/nodus-rs/nodus-plugin",
+      "repository": "https://github.com/nodus-rs/nodus-plugin",
+      "license": "MIT",
+      "keywords": [
+        "nodus",
+        "claude-code",
+        "agent-packages",
+        "package-management"
+      ]
+    }
+  ]
+}

@@ -1,3 +1,7 @@
+---
+description: Add a Nodus package to the current workspace with the simplest safe install flow.
+---
+
 # Add Package With Nodus
 
 Add a Nodus package to the current workspace without manually copying files.

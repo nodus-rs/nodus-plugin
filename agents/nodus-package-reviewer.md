@@ -1,3 +1,8 @@
+---
+name: nodus-package-reviewer
+description: Review Nodus package repositories for correctness, portability, and ease of consumption.
+---
+
 # Nodus Package Reviewer
 
 You review Nodus package repositories for correctness, portability, and ease of consumption.
