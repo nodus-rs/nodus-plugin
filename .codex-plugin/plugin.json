@@ -1,0 +1,41 @@
+{
+  "name": "nodus-plugin",
+  "version": "0.1.0",
+  "description": "Helper skills, commands, rules, and agents for installing, inspecting, and maintaining Nodus packages.",
+  "author": {
+    "name": "nodus-rs",
+    "url": "https://github.com/nodus-rs"
+  },
+  "homepage": "https://github.com/nodus-rs/nodus-plugin",
+  "repository": "https://github.com/nodus-rs/nodus-plugin",
+  "license": "MIT",
+  "keywords": [
+    "nodus",
+    "codex",
+    "agent-packages",
+    "package-management"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Nodus Plugin",
+    "shortDescription": "Nodus package workflows for Codex.",
+    "longDescription": "Install, inspect, sync, and review Nodus packages directly from Codex using the package content already shipped in this repository.",
+    "developerName": "nodus-rs",
+    "category": "Productivity",
+    "capabilities": [
+      "Skills",
+      "Commands",
+      "Agents",
+      "Rules"
+    ],
+    "websiteURL": "https://github.com/nodus-rs/nodus-plugin",
+    "privacyPolicyURL": "[TODO: privacy policy URL]",
+    "termsOfServiceURL": "[TODO: terms of service URL]",
+    "defaultPrompt": [
+      "Install a Nodus package for Codex in this repo.",
+      "Inspect this Nodus package before I add it.",
+      "Sync this workspace and verify Nodus is healthy."
+    ],
+    "brandColor": "#3B82F6"
+  }
+}
