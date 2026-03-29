@@ -10,6 +10,7 @@ It ships reusable:
 - a usage rule for consistent Nodus behavior
 
 The repo is designed to be consumed as a Nodus package and also includes native plugin metadata for Claude Code and Codex.
+For day-to-day usage, `nodus --help` is the quickest way to discover the supported commands and examples.
 
 ## What Is Included
 
@@ -22,20 +23,21 @@ Current package contents:
 
 ## Install With Nodus
 
-Use Nodus when you want the package managed in a workspace or installed globally for a supported adapter.
+Use Nodus when you want this package managed in the current workspace.
 
 Examples:
 
 ```bash
 nodus add nodus-rs/nodus-plugin --adapter codex
 nodus add nodus-rs/nodus-plugin --adapter claude
-nodus add nodus-rs/nodus-plugin --global --adapter codex
 nodus add nodus-rs/nodus-plugin --adapter claude --component skills --component rules
 nodus doctor
 ```
 
 Guidelines:
 
+- Prefer project-scoped installs by default: `nodus add nodus-rs/nodus-plugin --adapter <adapter>`.
+- Use `--global` only when the user explicitly wants a home-scoped install.
 - Prefer the full package unless you only need a subset of `skills`, `agents`, `commands`, or `rules`.
 - Prefer tagged releases when installing from Git.
 - Let Nodus manage generated runtime files under `.codex/`, `.claude/`, `.agents/`, and similar adapter roots.

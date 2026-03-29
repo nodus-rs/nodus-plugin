@@ -6,7 +6,7 @@
     "name": "nodus-rs",
     "url": "https://github.com/nodus-rs"
   },
-  "homepage": "https://github.com/nodus-rs/nodus-plugin",
+  "homepage": "https://nodus.elata.ai",
   "repository": "https://github.com/nodus-rs/nodus-plugin",
   "license": "MIT",
   "keywords": [
@@ -19,7 +19,7 @@
   "interface": {
     "displayName": "Nodus Plugin",
     "shortDescription": "Nodus package workflows for Codex.",
-    "longDescription": "Install, inspect, sync, and review Nodus packages directly from Codex using the package content already shipped in this repository.",
+    "longDescription": "Install, inspect, sync, and review Nodus packages in the current repository using the package content shipped here and the project-scoped Nodus flow.",
     "developerName": "nodus-rs",
     "category": "Productivity",
     "capabilities": [
@@ -28,13 +28,13 @@
       "Agents",
       "Rules"
     ],
-    "websiteURL": "https://github.com/nodus-rs/nodus-plugin",
+    "websiteURL": "https://nodus.elata.ai",
     "privacyPolicyURL": "[TODO: privacy policy URL]",
     "termsOfServiceURL": "[TODO: terms of service URL]",
     "defaultPrompt": [
-      "Install a Nodus package for Codex in this repo.",
+      "Install a Nodus package for Codex in this repo with `nodus add <package> --adapter codex`.",
       "Inspect this Nodus package before I add it.",
-      "Sync this workspace and verify Nodus is healthy."
+      "Sync this workspace and verify Nodus is healthy with `nodus doctor`."
     ],
     "brandColor": "#3B82F6"
   }
