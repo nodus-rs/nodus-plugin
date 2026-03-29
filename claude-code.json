@@ -1,5 +1,5 @@
 {
   "name": "nodus-plugin",
   "version": "0.1.0",
-  "description": "Helper skills, commands, rules, and agents for installing, inspecting, and maintaining Nodus packages."
+  "description": "Helper skills, commands, rules, and agents for installing, inspecting, and maintaining Nodus packages in the current repository."
 }
